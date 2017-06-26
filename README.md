@@ -1,6 +1,6 @@
 # Auth0DemoApp
 
-One of the "Learn Angular 2 Development By Building 12 Apps" - Eduonix, Brad Traversy... applications.  Uses the Auth0 (Client Side Javascript toolkit for Auth0 API)[https://github.com/auth0/auth0.js] to build a login/authentication demo application.
+One of the "Learn Angular 2 Development By Building 12 Apps" - Eduonix, Brad Traversy... applications.  Uses the Auth0 [Client Side Javascript toolkit for Auth0 API](https://github.com/auth0/auth0.js} to build a login/authentication demo application.
 
 The sample code provided in the for-pay course includes this MIT license file, so I am assuming it is ok to store my working version on public git repo (if not, just please ask and I will take it down)
 
