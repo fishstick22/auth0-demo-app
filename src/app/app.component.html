@@ -8,14 +8,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-      <a class="navbar-brand" href="#">AuthApp</a>
+      <a class="navbar-brand" href="#">{{authApp.title}}</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li><a routerLink="/">Home</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a routerLink="/profile">Profile</a></li>
+        <li><a href="#" (click)="auth.login()" *ngIf="!auth.isAuthenticated()">Login</a></li>
+        <li><a routerLink="/profile" *ngIf="auth.isAuthenticated()">Profile</a></li>
+        <li><a href="#" (click)="auth.logout()" *ngIf="auth.isAuthenticated()">Logout</a></li>
       </ul>
     </div>
     <!--/.nav-collapse -->
